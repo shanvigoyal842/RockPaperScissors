@@ -66,7 +66,7 @@ public class RPS extends Application {
         *it updates the score and displays the scores 
         *
         *@param users choice of Rock, Paper, or Scissors 
-        *@author Shanvi Goya; 
+        *@author Shanvi Goyal; 
     */
         
     public void play(String userChoice) {
