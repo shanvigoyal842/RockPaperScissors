@@ -7,6 +7,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import java.util.Random;
 
+//annika wrote this!
 public class RPS extends Application {
 
     Label result = new Label("   Choose Rock, Paper, or Scissors");
@@ -33,6 +34,8 @@ public class RPS extends Application {
         Button paper = new Button("Paper");
         Button scissors = new Button("Scissors");
 
+        //we used AI to make our game pink 
+        //we asked how to make everything pink
         rock.setStyle("-fx-background-color: pink;");
         paper.setStyle("-fx-background-color: pink;");
         scissors.setStyle("-fx-background-color: pink;");
@@ -56,7 +59,7 @@ public class RPS extends Application {
         stage.setTitle("Pink RPS");
         stage.show();
     }
-
+    //shanvi did this!
     public void play(String userChoice) {
 
         int needed = rounds / 2 + 1;
@@ -98,7 +101,7 @@ public class RPS extends Application {
 
         if(playerScore >= needed ||
                 computerScore >= needed){
-
+            //annika helped shanvi finish this from here!
             Alert end =
                     new Alert(
                             Alert.AlertType.INFORMATION
