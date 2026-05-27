@@ -101,7 +101,6 @@ public class RPS extends Application {
 
         if(playerScore >= needed ||
                 computerScore >= needed){
-            //annika helped shanvi finish this from here!
             Alert end =
                     new Alert(
                             Alert.AlertType.INFORMATION
