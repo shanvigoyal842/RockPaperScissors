@@ -60,6 +60,15 @@ public class RPS extends Application {
         stage.show();
     }
     //shanvi did this!
+    /** 
+        *this method plays one round of rock paper scissors
+        *user vs. computer 
+        *it updates the score and displays the scores 
+        *
+        *@param users choice of Rock, Paper, or Scissors 
+        *@author Shanvi Goya; 
+    */
+        
     public void play(String userChoice) {
 
         int needed = rounds / 2 + 1;
