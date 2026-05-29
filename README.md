@@ -8,6 +8,9 @@ import javafx.stage.Stage;
 import java.util.Random;
 
 //annika wrote this!
+/*
+ * this class makes the rock paper scissors game
+ */
 public class RPS extends Application {
 
     Label result = new Label("   Choose Rock, Paper, or Scissors");
@@ -18,7 +21,10 @@ public class RPS extends Application {
     int computerScore = 0;
     int rounds;
     int currentRound = 1;
-
+   
+    /*
+     * starts the game window
+     */
     public void start(Stage stage) {
 
         TextInputDialog dialog = new TextInputDialog();
@@ -129,6 +135,9 @@ public class RPS extends Application {
             end.show();
         }
     }
+    /*
+     * launches program
+     */
     public static void main(String[] args){
         launch(args);
     }
